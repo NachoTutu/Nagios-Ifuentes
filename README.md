@@ -16,7 +16,6 @@ Luego creamos el archivo Dockerfile con los parametros que vamos crear la imagen
 - Exponer los puerto necesarios
 - Instalar Plugins
 
-
 Script start.sh
 
 ```bash
@@ -26,6 +25,8 @@ service apache2 start
 service nagios start
 ```
 
+
+Archivo Dockerfile
 
 ```bash
 # imagen base de Ubuntu

@@ -89,7 +89,7 @@ EXPOSE 80 443
 CMD ["/start.sh"]
 ```
 
-Ya tiendo todo listo, debemos ir a la carpeta donde esta el archivo Dockerfile y compitar la imagen:
+Ya tiendo todo listo, debemos ir a la carpeta donde esta el archivo Dockerfile y compilar la imagen:
 
 ```bash
 sudo docker build -t nagios-ifuentes .
@@ -107,7 +107,7 @@ Para lanzar el contendor con la imagen, debemos colocar el siguiente comando:
 sudo docker run -d -p 80:80 nagios-ifuentes
 ```
 
-Comprobamos en un navgador con la dirrecion:
+Comprobamos en un navegador con la dirrecion:
 http://IP-maquina/nagios
 
 

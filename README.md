@@ -5,16 +5,6 @@ Prueba 2 Virtualizacion
 
 Se debe instalar Docker en una maquina, se utilizo Ubuntu, primero se actulizo la maquina y luego se instalar Docker.
 
-Script start.sh
-
-```bash
-#!/bin/bash
-
-service apache2 start
-service nagios start
-```
-
-
 ```bash
 sudo apt-get update
 sudo apt-get upgrade -y
@@ -25,6 +15,17 @@ Luego creamos el archivo Dockerfile con los parametros que vamos crear la imagen
 - Inicio Automatico
 - Exponer los puerto necesarios
 - Instalar Plugins
+
+
+Script start.sh
+
+```bash
+#!/bin/bash
+
+service apache2 start
+service nagios start
+```
+
 
 ```bash
 # imagen base de Ubuntu

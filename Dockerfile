@@ -1,4 +1,4 @@
-# imagen base de Ubuntu
+# imagen base de Ubuntu.
 FROM ubuntu:20.04
 
 # Actualiza repositorios y instalar lo necesario
